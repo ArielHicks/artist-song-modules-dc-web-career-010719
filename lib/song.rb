@@ -3,8 +3,7 @@ require 'pry'
 class Song
 
   extend Memorable
-end
-
+  
   attr_accessor :name
   attr_reader :artist
 
