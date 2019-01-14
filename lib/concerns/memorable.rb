@@ -2,12 +2,12 @@
 
 module Memorable
 
-  def reset_all
-    all.clear
+  def include.reset_all
+    include.all.clear
   end
 
-  def count
-    all.count
+  def include.count
+    include.all.count
   end
 
 end
